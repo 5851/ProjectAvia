@@ -9,10 +9,26 @@
 /* Begin PBXBuildFile section */
 		045CAE3523288B2F00DCCEDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 045CAE3423288B2F00DCCEDC /* AppDelegate.m */; };
 		045CAE3823288B2F00DCCEDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045CAE3723288B2F00DCCEDC /* ViewController.m */; };
-		045CAE3B23288B2F00DCCEDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045CAE3923288B2F00DCCEDC /* Main.storyboard */; };
 		045CAE3D23288B3000DCCEDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045CAE3C23288B3000DCCEDC /* Assets.xcassets */; };
-		045CAE4023288B3000DCCEDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045CAE3E23288B3000DCCEDC /* LaunchScreen.storyboard */; };
 		045CAE4323288B3000DCCEDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 045CAE4223288B3000DCCEDC /* main.m */; };
+		04FC36BD2329DFF3009DA5D6 /* Airport.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC36BC2329DFF3009DA5D6 /* Airport.m */; };
+		04FC36C02329E034009DA5D6 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC36BE2329E034009DA5D6 /* City.m */; };
+		04FC36C32329E03B009DA5D6 /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC36C12329E03B009DA5D6 /* Country.m */; };
+		04FC36CB2329E086009DA5D6 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC36C52329E086009DA5D6 /* DataManager.m */; };
+		04FC36CE2329E086009DA5D6 /* Countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 04FC36C82329E086009DA5D6 /* Countries.json */; };
+		04FC36CF2329E086009DA5D6 /* Cities.json in Resources */ = {isa = PBXBuildFile; fileRef = 04FC36CA2329E086009DA5D6 /* Cities.json */; };
+		04FC36D12329E0CC009DA5D6 /* airports.json in Resources */ = {isa = PBXBuildFile; fileRef = 04FC36D02329E0CC009DA5D6 /* airports.json */; };
+		04FC36D42329E1F3009DA5D6 /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC36D32329E1F3009DA5D6 /* RootNavigationController.m */; };
+		04FC36D92329E21C009DA5D6 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC36D82329E21C009DA5D6 /* SettingsViewController.m */; };
+		04FC36DC2329E222009DA5D6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC36DB2329E222009DA5D6 /* MainViewController.m */; };
+		04FC36E32329E27F009DA5D6 /* ThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC36DF2329E27E009DA5D6 /* ThemeManager.m */; };
+		04FC36E42329E27F009DA5D6 /* BaseTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC36E22329E27F009DA5D6 /* BaseTheme.m */; };
+		04FC36E92329E29E009DA5D6 /* DefaultDarkTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC36E72329E29E009DA5D6 /* DefaultDarkTheme.m */; };
+		04FC36EC2329E2A3009DA5D6 /* DefaultLightTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC36EB2329E2A2009DA5D6 /* DefaultLightTheme.m */; };
+		04FC36F12329E2CF009DA5D6 /* TitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC36EF2329E2CE009DA5D6 /* TitleLabel.m */; };
+		04FC36F42329E2D4009DA5D6 /* SegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC36F22329E2D4009DA5D6 /* SegmentedControl.m */; };
+		04FC36F72329E35E009DA5D6 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC36F62329E35E009DA5D6 /* BaseViewController.m */; };
+		04FC36FC232A3775009DA5D6 /* ViewBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC36FB232A3775009DA5D6 /* ViewBackground.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +37,42 @@
 		045CAE3423288B2F00DCCEDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		045CAE3623288B2F00DCCEDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		045CAE3723288B2F00DCCEDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		045CAE3A23288B2F00DCCEDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		045CAE3C23288B3000DCCEDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		045CAE3F23288B3000DCCEDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		045CAE4123288B3000DCCEDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		045CAE4223288B3000DCCEDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04FC36BB2329DFF3009DA5D6 /* Airport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Airport.h; sourceTree = "<group>"; };
+		04FC36BC2329DFF3009DA5D6 /* Airport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Airport.m; sourceTree = "<group>"; };
+		04FC36BE2329E034009DA5D6 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		04FC36BF2329E034009DA5D6 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		04FC36C12329E03B009DA5D6 /* Country.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Country.m; sourceTree = "<group>"; };
+		04FC36C22329E03B009DA5D6 /* Country.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Country.h; sourceTree = "<group>"; };
+		04FC36C52329E086009DA5D6 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		04FC36C82329E086009DA5D6 /* Countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Countries.json; sourceTree = "<group>"; };
+		04FC36C92329E086009DA5D6 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		04FC36CA2329E086009DA5D6 /* Cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Cities.json; sourceTree = "<group>"; };
+		04FC36D02329E0CC009DA5D6 /* airports.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = airports.json; sourceTree = "<group>"; };
+		04FC36D22329E1F3009DA5D6 /* RootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationController.h; sourceTree = "<group>"; };
+		04FC36D32329E1F3009DA5D6 /* RootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationController.m; sourceTree = "<group>"; };
+		04FC36D72329E21C009DA5D6 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		04FC36D82329E21C009DA5D6 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		04FC36DA2329E221009DA5D6 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		04FC36DB2329E222009DA5D6 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		04FC36DF2329E27E009DA5D6 /* ThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeManager.m; sourceTree = "<group>"; };
+		04FC36E02329E27F009DA5D6 /* ThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeManager.h; sourceTree = "<group>"; };
+		04FC36E12329E27F009DA5D6 /* BaseTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTheme.h; sourceTree = "<group>"; };
+		04FC36E22329E27F009DA5D6 /* BaseTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTheme.m; sourceTree = "<group>"; };
+		04FC36E72329E29E009DA5D6 /* DefaultDarkTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultDarkTheme.m; sourceTree = "<group>"; };
+		04FC36E82329E29E009DA5D6 /* DefaultDarkTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultDarkTheme.h; sourceTree = "<group>"; };
+		04FC36EA2329E2A2009DA5D6 /* DefaultLightTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultLightTheme.h; sourceTree = "<group>"; };
+		04FC36EB2329E2A2009DA5D6 /* DefaultLightTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultLightTheme.m; sourceTree = "<group>"; };
+		04FC36EF2329E2CE009DA5D6 /* TitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleLabel.m; sourceTree = "<group>"; };
+		04FC36F02329E2CF009DA5D6 /* TitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleLabel.h; sourceTree = "<group>"; };
+		04FC36F22329E2D4009DA5D6 /* SegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentedControl.m; sourceTree = "<group>"; };
+		04FC36F32329E2D4009DA5D6 /* SegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentedControl.h; sourceTree = "<group>"; };
+		04FC36F52329E35E009DA5D6 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		04FC36F62329E35E009DA5D6 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		04FC36FA232A3775009DA5D6 /* ViewBackground.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewBackground.h; sourceTree = "<group>"; };
+		04FC36FB232A3775009DA5D6 /* ViewBackground.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewBackground.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +105,176 @@
 		045CAE3223288B2F00DCCEDC /* ProjectAvia */ = {
 			isa = PBXGroup;
 			children = (
+				04FC36C42329E064009DA5D6 /* Managers */,
+				04FC36B12329DFA9009DA5D6 /* Models */,
+				04FC36AE2329DF77009DA5D6 /* UI */,
+				04FC36AA2329DF23009DA5D6 /* ViewControllers */,
 				045CAE3323288B2F00DCCEDC /* AppDelegate.h */,
 				045CAE3423288B2F00DCCEDC /* AppDelegate.m */,
 				045CAE3623288B2F00DCCEDC /* ViewController.h */,
 				045CAE3723288B2F00DCCEDC /* ViewController.m */,
-				045CAE3923288B2F00DCCEDC /* Main.storyboard */,
 				045CAE3C23288B3000DCCEDC /* Assets.xcassets */,
-				045CAE3E23288B3000DCCEDC /* LaunchScreen.storyboard */,
 				045CAE4123288B3000DCCEDC /* Info.plist */,
 				045CAE4223288B3000DCCEDC /* main.m */,
 			);
 			path = ProjectAvia;
+			sourceTree = "<group>";
+		};
+		04FC36AA2329DF23009DA5D6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04FC36D62329E20D009DA5D6 /* Settings */,
+				04FC36D52329E20C009DA5D6 /* Main */,
+				04FC36D22329E1F3009DA5D6 /* RootNavigationController.h */,
+				04FC36D32329E1F3009DA5D6 /* RootNavigationController.m */,
+				04FC36F52329E35E009DA5D6 /* BaseViewController.h */,
+				04FC36F62329E35E009DA5D6 /* BaseViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		04FC36AE2329DF77009DA5D6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				04FC36DD2329E24E009DA5D6 /* BaseViews */,
+				04FC36DE2329E26B009DA5D6 /* Theme */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		04FC36B12329DFA9009DA5D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04FC36BA2329DFCF009DA5D6 /* Airport */,
+				04FC36B92329DFCD009DA5D6 /* City */,
+				04FC36B82329DFC9009DA5D6 /* Country */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04FC36B82329DFC9009DA5D6 /* Country */ = {
+			isa = PBXGroup;
+			children = (
+				04FC36C22329E03B009DA5D6 /* Country.h */,
+				04FC36C12329E03B009DA5D6 /* Country.m */,
+			);
+			path = Country;
+			sourceTree = "<group>";
+		};
+		04FC36B92329DFCD009DA5D6 /* City */ = {
+			isa = PBXGroup;
+			children = (
+				04FC36BF2329E034009DA5D6 /* City.h */,
+				04FC36BE2329E034009DA5D6 /* City.m */,
+			);
+			path = City;
+			sourceTree = "<group>";
+		};
+		04FC36BA2329DFCF009DA5D6 /* Airport */ = {
+			isa = PBXGroup;
+			children = (
+				04FC36BB2329DFF3009DA5D6 /* Airport.h */,
+				04FC36BC2329DFF3009DA5D6 /* Airport.m */,
+			);
+			path = Airport;
+			sourceTree = "<group>";
+		};
+		04FC36C42329E064009DA5D6 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				04FC36C92329E086009DA5D6 /* DataManager.h */,
+				04FC36C52329E086009DA5D6 /* DataManager.m */,
+				04FC36C82329E086009DA5D6 /* Countries.json */,
+				04FC36CA2329E086009DA5D6 /* Cities.json */,
+				04FC36D02329E0CC009DA5D6 /* airports.json */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		04FC36D52329E20C009DA5D6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				04FC36DA2329E221009DA5D6 /* MainViewController.h */,
+				04FC36DB2329E222009DA5D6 /* MainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		04FC36D62329E20D009DA5D6 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				04FC36D72329E21C009DA5D6 /* SettingsViewController.h */,
+				04FC36D82329E21C009DA5D6 /* SettingsViewController.m */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		04FC36DD2329E24E009DA5D6 /* BaseViews */ = {
+			isa = PBXGroup;
+			children = (
+				04FC36F9232A3752009DA5D6 /* UIView */,
+				04FC36EE2329E2BE009DA5D6 /* Label */,
+				04FC36ED2329E2BC009DA5D6 /* Buttons */,
+			);
+			path = BaseViews;
+			sourceTree = "<group>";
+		};
+		04FC36DE2329E26B009DA5D6 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				04FC36E62329E28B009DA5D6 /* DefaultDark */,
+				04FC36E52329E289009DA5D6 /* DefaultLight */,
+				04FC36E12329E27F009DA5D6 /* BaseTheme.h */,
+				04FC36E22329E27F009DA5D6 /* BaseTheme.m */,
+				04FC36E02329E27F009DA5D6 /* ThemeManager.h */,
+				04FC36DF2329E27E009DA5D6 /* ThemeManager.m */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		04FC36E52329E289009DA5D6 /* DefaultLight */ = {
+			isa = PBXGroup;
+			children = (
+				04FC36EA2329E2A2009DA5D6 /* DefaultLightTheme.h */,
+				04FC36EB2329E2A2009DA5D6 /* DefaultLightTheme.m */,
+			);
+			path = DefaultLight;
+			sourceTree = "<group>";
+		};
+		04FC36E62329E28B009DA5D6 /* DefaultDark */ = {
+			isa = PBXGroup;
+			children = (
+				04FC36E82329E29E009DA5D6 /* DefaultDarkTheme.h */,
+				04FC36E72329E29E009DA5D6 /* DefaultDarkTheme.m */,
+			);
+			path = DefaultDark;
+			sourceTree = "<group>";
+		};
+		04FC36ED2329E2BC009DA5D6 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				04FC36F32329E2D4009DA5D6 /* SegmentedControl.h */,
+				04FC36F22329E2D4009DA5D6 /* SegmentedControl.m */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		04FC36EE2329E2BE009DA5D6 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				04FC36F02329E2CF009DA5D6 /* TitleLabel.h */,
+				04FC36EF2329E2CE009DA5D6 /* TitleLabel.m */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		04FC36F9232A3752009DA5D6 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				04FC36FA232A3775009DA5D6 /* ViewBackground.h */,
+				04FC36FB232A3775009DA5D6 /* ViewBackground.m */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +334,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				045CAE4023288B3000DCCEDC /* LaunchScreen.storyboard in Resources */,
 				045CAE3D23288B3000DCCEDC /* Assets.xcassets in Resources */,
-				045CAE3B23288B2F00DCCEDC /* Main.storyboard in Resources */,
+				04FC36D12329E0CC009DA5D6 /* airports.json in Resources */,
+				04FC36CF2329E086009DA5D6 /* Cities.json in Resources */,
+				04FC36CE2329E086009DA5D6 /* Countries.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,32 +348,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FC36DC2329E222009DA5D6 /* MainViewController.m in Sources */,
+				04FC36E92329E29E009DA5D6 /* DefaultDarkTheme.m in Sources */,
+				04FC36C32329E03B009DA5D6 /* Country.m in Sources */,
 				045CAE3823288B2F00DCCEDC /* ViewController.m in Sources */,
+				04FC36BD2329DFF3009DA5D6 /* Airport.m in Sources */,
+				04FC36F42329E2D4009DA5D6 /* SegmentedControl.m in Sources */,
+				04FC36C02329E034009DA5D6 /* City.m in Sources */,
+				04FC36F72329E35E009DA5D6 /* BaseViewController.m in Sources */,
+				04FC36D42329E1F3009DA5D6 /* RootNavigationController.m in Sources */,
+				04FC36CB2329E086009DA5D6 /* DataManager.m in Sources */,
+				04FC36F12329E2CF009DA5D6 /* TitleLabel.m in Sources */,
+				04FC36D92329E21C009DA5D6 /* SettingsViewController.m in Sources */,
+				04FC36FC232A3775009DA5D6 /* ViewBackground.m in Sources */,
 				045CAE4323288B3000DCCEDC /* main.m in Sources */,
+				04FC36E42329E27F009DA5D6 /* BaseTheme.m in Sources */,
 				045CAE3523288B2F00DCCEDC /* AppDelegate.m in Sources */,
+				04FC36EC2329E2A3009DA5D6 /* DefaultLightTheme.m in Sources */,
+				04FC36E32329E27F009DA5D6 /* ThemeManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		045CAE3923288B2F00DCCEDC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				045CAE3A23288B2F00DCCEDC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		045CAE3E23288B3000DCCEDC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				045CAE3F23288B3000DCCEDC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		045CAE4423288B3000DCCEDC /* Debug */ = {
